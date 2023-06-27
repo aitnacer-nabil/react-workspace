@@ -103,7 +103,7 @@ function Pizza(props) {
         <h3>{props.pizzaObj.name}</h3>
         <p>{props.pizzaObj.ingredients}</p>
 
-        <span>{props.pizzaObj.price}</span>
+        <span>{ props.pizzaObj.soldOut ? "SOLD OUT" : props.pizzaObj.price}</span>
       </div>
     </li>
   );
@@ -114,4 +114,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-//TODO chapter 5 video 20
