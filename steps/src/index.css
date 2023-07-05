@@ -1,9 +1,5 @@
 /* 
-const messages = [
-  "Learn React ⚛️",
-  "Apply for jobs 💼",
-  "Invest your new income 🤑",
-];
+
  */
 
 * {
@@ -96,4 +92,9 @@ h3 {
 
 .close:hover {
   color: #7950f2;
+}
+
+.btnActive {
+  background-color: #7950f2;
+  color: #fff;
 }
