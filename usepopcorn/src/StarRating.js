@@ -18,7 +18,7 @@ export default function StarRating({
   color = "#fcc419",
   size = 48,
   className,
-  messages,
+  messages = '',
   defaultRating = 0,
   onSetRating
 }) {
